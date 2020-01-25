@@ -4,9 +4,13 @@ const bot = new Discord.Client();
 
 bot.on(`message`, (message) => {
 
-  if(message.content.toLowerCase() === 'f' || message.content.toLowerCase() === 'ff' || message.content.toLowerCase() === 'fff' ){
+  if(message.content.toLowerCase() === 'f' || message.content.toLowerCase() === 'ff' || message.content.toLowerCase() === 'fff' || message.content.toLowerCase() === '!wf' ){
     //message.reply('@here');
     message.channel.send('@here war fund');
+    message.channel.send('@here war fund');
+    message.channel.send('@Army war fund');
+    message.channel.send('@Army war fund');
+    message.channel.send('@Army war fund');
   }
 });
 
